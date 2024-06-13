@@ -1,0 +1,6 @@
+{% csrf_token %}
+{% for elt in form %}
+    {{elt.label}}
+    {{elt}}
+
+{% endfor %}
